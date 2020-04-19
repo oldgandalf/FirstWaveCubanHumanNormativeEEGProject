@@ -7,19 +7,23 @@ The study was performed in collaboration with the Cuban government and the Minis
 To those subjects who gave their consent, the nurses applied an exhaustive clinical history with the purpose of selecting subjects who were functionally healthy. Subjects that did not satisfied those requirements did not continue in the normative study. Those who were identified to may have a possible medical condition were referred to the appropriate specialist. The details of the exclusion criteria can be found in (Bosch-Bayard et al., 2020, in preparation).
 
 Subjects’ preparation
+
 The subjects were recorded during the morning to guarantee the state of wakefulness. The following instructions were given prior to the EEG recording and checked for just before the session: a) to go to bed before 11 pm the night before and sleep for at least 8 hours; b) to abstain from alcohol, coffee, black tea, chocolate or soda the day before; c) to have a normal breakfast in the morning. Additionally, before starting the recording at the clinic they were offered a snack to avoid prolongated fasting period.
 
 Data recording and edition
+
 A digital electroencephalograph (MEDICID-3M) was used with gain of 10 000, filters from 0.3 -30 Hz and 60 Hz notch, noise 2 mV RMS, sampling period 10 msec. Nineteen silver disc scalp-electrodes were placed according to the International 10/20 System (impedance below 5 KΩ). Recordings were performed with monopolar linked ear reference. Bipolar, average reference and Laplacian montages can be calculated off-line.
 
 Ten to twelve minutes of EEG were recorded in a dimly lit room, with the subject in resting state, under constant surveillance to prevent drowsiness and in order to control hyperventilation. Samples of EEG were recorded for each subject, in the following states: eyes closed (EC, 5 minutes); eyes open (EO, 3 minutes); hyperventilation (HV, 3 minutes).
 Eye movements and blinking were monitored by electro-oculogram (EOG). Expert electroencephalographers carefully edited the EEG signals and visually selected 24 artifact free segments of 2.56s duration; 24 segments for EC, EO and HV.
 
 Transformation to the frequency domain
+
 Data analysis sample spectra were calculated by the Fast Fourier Transform (FFT) and cross-segment averaging (Brillinger, 1974). Cross-spectral matrices were calculated for every 0.39 Hz, from 0.39 to 19.11 Hz. As pointed out in (Pascual-Marqui, Gonzalez-Andino, & Valdes-Sosa, 1988) the sample spectra show a considerable degree of smoothness which make them amenable to parametric descriptions.
 By means of appropriate transformation matrices (Katznelson, 1981) cross spectral matrices for the linked earlobe reference can be transformed to average reference montage or the Laplacian (Pascual-Marqui et al., 1988).
 
 Data sharing: format and accessibility
+
 The dataset shared in this contribution contains 198 for Eyes Close and 211 for Eyes Open cross-spectral matrices obtained from the normative sample. The files are saved in MAT Matlab format. The name of each file starts with an 'A' for Eyes Close and with 'B' for Eyes Open, followed by the subject's code and ending with '_cross.mat'.
 Inside each MAT file, there are three variables: the subject's age and sex and the cross spectral matrices for the whole frequency range (MCross).
 MCross is a 3D matrix of 19 x 19 x 49, where 19 is the number of electrodes and 49 is the number of frequencies, equally spanned from 0.39 to 19.11 each 0.39 Hz. The elements of MCross are real values in the diagonal, for the values of the power spectrum foe each electrode and frequency. Outside the diagonal, the MCross values are complex number containing the cross-spectral values for each pair of electrodes and frequency.
