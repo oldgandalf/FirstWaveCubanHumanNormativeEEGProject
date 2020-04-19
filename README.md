@@ -24,8 +24,9 @@ By means of appropriate transformation matrices (Katznelson, 1981) cross spectra
 
 Data sharing: format and accessibility
 
-The dataset shared in this contribution contains 198 for Eyes Close and 211 for Eyes Open cross-spectral matrices obtained from the normative sample. The files are saved in MAT Matlab format. The files are compressed as ZIP files, one for Eyes Close (EyesClose.zip) and the second one for Eyes Open (EyesOpen.zip).
-Inside the ZIP files, the subjects’ data are saved in MAT Matlab format. The name of each file starts with an 'A' for Eyes Close and with 'B' for Eyes Open, followed by the subject's code and ending with '_cross.mat'.
+The dataset shared in this contribution contains 198 for Eyes Close and 211 for Eyes Open cross-spectral matrices obtained from the normative sample. The files are saved in MAT Matlab format. The files are compressed as ZIP files, one for Eyes Close (EyesClose.zip) and the second one for Eyes Open (EyesOpen.zip). Inside the ZIP files, the subjects’ data are saved in MAT Matlab format. The name of each file starts with an 'A' for Eyes Close and with 'B' for Eyes Open, followed by the subject's code and ending with '_cross.mat'.
 Inside each MAT file, there are three variables: the subject's age and sex and the cross spectral matrices for the whole frequency range (MCross).
+
 MCross is a 3D matrix of 19 x 19 x 49, where 19 is the number of electrodes and 49 is the number of frequencies, equally spanned from 0.39 to 19.11 each 0.39 Hz. The elements of MCross are real values in the diagonal, for the values of the power spectrum foe each electrode and frequency. Outside the diagonal, the MCross values are complex number containing the cross-spectral values for each pair of electrodes and frequency.
+
 This dataset is accompanied by a XLS file which contains the list of all subjects, including Code, Age, Sex and whether the Eyes Close and Eyes Open data are available.
