@@ -30,3 +30,12 @@ Inside each MAT file, there are three variables: the subject's age and sex and t
 MCross is a 3D matrix of 19 x 19 x 49, where 19 is the number of electrodes and 49 is the number of frequencies, equally spanned from 0.39 to 19.11 each 0.39 Hz. The elements of MCross are real values in the diagonal, for the values of the power spectrum foe each electrode and frequency. Outside the diagonal, the MCross values are complex number containing the cross-spectral values for each pair of electrodes and frequency.
 
 This dataset is accompanied by a XLS file which contains the list of all subjects, including Code, Age, Sex and whether the Eyes Close and Eyes Open data are available.
+
+
+Suggested EEG spectra baseline standardization
+
+One of the common problems when using EEG data coming from different sources is how to make them comparable. EEGs coming from different devices may be different due to external factors not related to neurophysiology but to hardware differences, amplifiers, noise, and other factors. Additionally, factors like the skull thickness, the hair, skin conductance, etc. may be the source of other differences in the EEG spectra.  A random general scale factor (GSF) affecting EEG records due to non-neurophysiological differences  has been described in (Hernández et al., 1994). It was shown that the maximum likelihood estimate of GSF for an individual is the average of all log power values across all derivations. Correcting the EEG recordings by this factor may help to eliminate those differences among individuals making them more comparable for statistical purposes. In the shared code in GitHub we have included the MATLAB code for calculating the GSF from the cross-spectral matrices like the ones we are sharing. Before calculating the GSF, the procedure involves first re-referencing the data to the Average Reference (Mardia, Kent, & Bibby, 1997).
+
+With this data we are also including the MATLAB code for changing the reference of the datat to the Average reference and for re-escaling the cross-spectral matrices by the Global Scale Factor.
+
+
