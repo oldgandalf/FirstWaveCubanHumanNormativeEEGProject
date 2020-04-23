@@ -38,4 +38,11 @@ One of the common problems when using EEG data coming from different sources is 
 
 With this data we are also including the MATLAB code for changing the reference of the datat to the Average reference and for re-escaling the cross-spectral matrices by the Global Scale Factor.
 
+References
+
+Hernández, J. L., Valdés, P., Biscay, R., Virues, T., Szava, S., Bosch, J., … Clark, I. (1994). A global scale factor in brain topography. The International Journal of Neuroscience, 76(3–4), 267–278. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/7960483
+
+Mardia, K. V., Kent, J. T., & Bibby, J. M. (1997). Multivariate analysis. (Z. W. Birnbaum & E. Lukacs, Eds.) (6th ed.). London: Academic Press.
+
+
 
