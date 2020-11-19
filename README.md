@@ -45,7 +45,7 @@ Hernández, J. L., Valdés, P., Biscay, R., Virues, T., Szava, S., Bosch, J., �
 Mardia, K. V., Kent, J. T., & Bibby, J. M. (1997). Multivariate analysis. (Z. W. Birnbaum & E. Lukacs, Eds.) (6th ed.). London: Academic Press.
 
 
-CITATIONS
+Citations
 
 Please, cite this data as:
 
