@@ -46,6 +46,8 @@ Mardia, K. V., Kent, J. T., & Bibby, J. M. (1997). Multivariate analysis. (Z. W.
 
 
 Citations
-Plase cite this data as:
+
+Please cite this data as:
+
 Bosch-Bayard J, Galan L, Aubert Vazquez E, Virues Alba T and Valdes-Sosa PA (2020) Resting State Healthy EEG: The First Wave of the Cuban Normative Database. Front. Neurosci. 14:555119. doi: 10.3389/fnins.2020.555119
 
